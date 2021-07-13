@@ -1,10 +1,13 @@
+
+
 function kilometerToMeter(kilometer) {
     var meter = Math.abs(kilometer) * 1000;
     return meter;
 }
 
-// var result=kilometerToMeter(-6);
-// console.log(result);
+
+
+
 
 function budgetCalculator(watch, mobile, laptop) {
     var watchPrice = Math.abs(watch) * 50;
@@ -15,8 +18,9 @@ function budgetCalculator(watch, mobile, laptop) {
     return totalBudget;
 }
 
-// var result=budgetCalculator(2,2,2);
-// console.log(result);
+
+
+
 
 
 function hotelCost(numberOfDays) {
@@ -42,8 +46,10 @@ function hotelCost(numberOfDays) {
     return cost;
 }
 
-// var result=hotelCost(21);
-// console.log(result);
+
+
+
+
 
 function megaFriend(names) {
     var max = names[0].length;                    //taking initial length of first name to compare 
@@ -64,7 +70,3 @@ function megaFriend(names) {
     }
     return maxName;
 }
-
-// var name = [' ', 'gotze', ' ', 'sakibs'];
-// var max = megaFriend(name);
-// console.log(max);
