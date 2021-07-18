@@ -1,1 +1,1 @@
-# js-assignment
+# js-problemsolving
